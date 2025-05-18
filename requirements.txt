@@ -1,0 +1,3 @@
+python-dotenv
+evdev
+rpi_backlight
