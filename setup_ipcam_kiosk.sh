@@ -1,4 +1,7 @@
 
+# Enable I2C for touch screen input
+sudo raspi-config nonint do_i2c 0
+
 sudo apt-get install pip cmatrix
 python -m venv $HOME/ipcam_kiosk/venv
 . venv/bin/activate
